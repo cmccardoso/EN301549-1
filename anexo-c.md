@@ -137,15 +137,11 @@ Resultado        |Passa: A verificação 1 é verdadeira<br>Falha: A verificaç�
 
 ##### C.5.1.3.8 _Masked entry_
 
-Tipo de avaliação|Teste
------------------|-------
-Pré-condições    |1. O retorno auditivo é fornecido como acesso não-visual à funcionalidade fechada.
-<br>2. Os caracteres exibidos são masking characters***.
-<br>3. O utilizador não escolhe especificamente permitir saída auditiva não-privada.
-Procedimento     |1. Verificar que a saída auditiva não é uma versão falada dos carateres escritos.
-<br>2. Verificar que é conhecido que a saída auditiva é fornecida apenas para um mecanismo de escuta privada.
-<br>3. Se 1 e 2 são falsos, verificar que o utilizador escolheu específicamente permitir a saída auditiva não-privada.
-Resultado        |Passa: Pelo menos uma das verificações é verdadeira.<br>Falha: Todas as verificações são falsas.
+Tipo de avaliação | Teste
+------------------|-------
+Pré-condições    | 1. O retorno auditivo é fornecido como acesso não-visual à funcionalidade fechada.<br>2. Os caracteres exibidos são _masking characters_.<br>3. O utilizador não escolhe especificamente permitir saída auditiva não-privada.
+Procedimento     | 1. Verificar que a saída auditiva não é uma versão falada dos carateres escritos.<br>2. Verificar que é conhecido que a saída auditiva é fornecida apenas para um mecanismo de escuta privada.<br>3. Se 1 e 2 são falsos, verificar que o utilizador escolheu específicamente permitir a saída auditiva não-privada.
+Resultado        | Passa: Pelo menos uma das verificações é verdadeira.<br>Falha: Todas as verificações são falsas.
 
 ##### C.5.1.3.9 Acesso privado a dados pessoais
 
