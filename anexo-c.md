@@ -99,38 +99,44 @@ Pré-condições    |1. É fornecida um retorno auditivo como acesso não visual
 Procedimento     |1. Verificar que o retorno auditivo é fornecida por um mecanismo incluido ou fornecido com a TIC.<br>2. Verifica-se que o retorno auditivo é fornecida por um auscultador pessoal que pode ser ligado através de um audio jack de 3,5 mm ou uma ligação standard da indústria tal que não seja necessário acesso visual.
 Resultado        |Passa: A verificação 2 é verdadeira<br>Falha: A verificação 2 é falsa
 
-#####C.5.1.3.3 Correlação do retorno auditivo
+##### C.5.1.3.3 Correlação do retorno auditivo
+
 A Cláusula 5.1.3.3 é apenas informativa e não contém requisitos que precisem de testes.
 
-#####C.5.1.3.4 Controlo através da fala
+##### C.5.1.3.4 Controlo através da fala
+
 Tipo de avaliação|Inspeção
 -----------------|-------
 Pré-condições    |1. A fala é fornecida como um acesso não-visual à funcionalidade fechada.
 Procedimento     |1. Verificar que a fala pode ser interrompida quando requerido pelo utilizador.<br>2. Verificar que a fala pode ser repetida quando requerido pelo utilizador.
 Resultado        |Passa: Todas as verificações são verdadeiras<br>Falha: Pelo menos uma das verificações é falsa.
 
-#####C.5.1.3.5 Interrupção automática da fala
+##### C.5.1.3.5 Interrupção automática da fala
+
 Tipo de avaliação|Inspeção
 -----------------|-------
 Pré-condições    |1. A Fala é fornecida como um acesso não-visual à funcionalidade fechada.
 Procedimento     |1. Determinar as funcionalidades fechadas da TIC.<br>2. Verificar que a saída de fala para cada função é interrompida por ação do utilizador.<br>3. Verificar que a saída de fala para cada função é interrompida quando uma nova saída de fala é iniciada.
 Resultado        |Passa: As verificações 1 e 3 são verdadeiras. são verdadeiras<br>Falha: As verificações 1 e 3 são falsas.
 
-#####C.5.1.3.6 Fala para conteúdo não-textual
+##### C.5.1.3.6 Fala para conteúdo não-textual
+
 Tipo de avaliação|Teste
 -----------------|-------
 Pré-condições    |1. A Fala é fornecida como um acesso não-visual à funcionalidade fechada.
 Procedimento     |1. Determinar as funcionalidades fechadas da TIC.<br>2. Verificar que texto não é apenas decorativo.<br>3. Verificar que o texto não é usado apenas para formatação visual.<br>4. Verificar que a saída de fala segue orientação da "alternativa de texto" descrita no Critério de Sucesso 1.1.1 da WCAG 2.1.
 Resultado        |Passa: Todas as verificações são verdadeiras; ou 1 e 2 são falsas; ou 1 e 3 são falsas.<br>Falha: Verificação 1 é verdadeira e 2 é falsa; 1 é verdadeira e 3 é falsa; ou 1 e 2 e 3 são verdadeiras e 4 é falsa .
 
-#####C.5.1.3.7 Fala para informação em vídeo
+##### C.5.1.3.7 Fala para informação em vídeo
+
 Tipo de avaliação|Teste
 -----------------|-------
 Pré-condições    |1. É necessário conteúdo de vídeo pré-gravado para ativar a utilização de funcionalidades fechadas da TIC.<br>2. A saída de fala é fornecida como acesso não-visual a conteúdo não-textual exibido na funcionalidade fechada.
 Procedimento     |1. Verificar que a saída de fala apresenta informação equivalente à do conteúdo pré-gravado do vídeo.
 Resultado        |Passa: A verificação 1 é verdadeira<br>Falha: A verificação 1 é falsa.
 
-#####C.5.1.3.8 Masked entry**
+##### C.5.1.3.8 Masked entry**
+
 Tipo de avaliação|Teste
 -----------------|-------
 Pré-condições    |1. O retorno auditivo é fornecido como acesso não-visual à funcionalidade fechada.
@@ -141,7 +147,8 @@ Procedimento     |1. Verificar que a saída auditiva não é uma versão falada 
 <br>3. Se 1 e 2 são falsos, verificar que o utilizador escolheu específicamente permitir a saída auditiva não-privada.
 Resultado        |Passa: Pelo menos uma das verificações é verdadeira.<br>Falha: Todas as verificações são falsas.
 
-#####C.5.1.3.9 Acesso privado a dados pessoais
+##### C.5.1.3.9 Acesso privado a dados pessoais
+
 Tipo de avaliação|Teste
 -----------------|-------
 Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual à funcionalidade fechada.
@@ -152,7 +159,8 @@ Procedimento     |1. Verificar que a saída auditiva é fornecida apenas para um
 <br>3. Verificar que a saída auditiva pode ser fornecida por qualquer outro mecanismo escolhido pelo utilizador.
 Resultado        |Passa: A verificação 1 ou 2 são verdadeiras; ou 3 é verdadeira.<br>Falha: As verificações 1 ou 2 e 3 são falsas.
 
-#####C.5.1.3.10 Saída de áudio sem interferência
+##### C.5.1.3.10 Saída de áudio sem interferência
+
 Tipo de avaliação|Inspeção
 -----------------|-------
 Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual à funcionalidade fechada.
@@ -160,7 +168,8 @@ Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual �
 Procedimento     |1. Verificar que a interferência audível não dura mais de 3 segundos.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-#####C.5.1.3.11 Volume de escuta privada
+##### C.5.1.3.11 Volume de escuta privada
+
 Tipo de avaliação|Inspeção
 -----------------|-------
 Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual à funcionalidade fechada.
@@ -168,7 +177,8 @@ Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual �
 Procedimento     |1. Verificar que existe pelo menos um modo de operação não-visual para controlar o volume do som.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-####C.5.1.3.12 Volume do altifalante
+#### C.5.1.3.12 Volume do altifalante
+
 Tipo de avaliação|Inspeção e Medida
 -----------------|-----------------
 Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual à funcionalidade fechada.
@@ -177,7 +187,8 @@ Procedimento     |1. Verificar que existe um modo de operação não-visual para
 <br>2. Verificar que a amplificação pode ir o nível, de pelo menos, 65 dBA (-29 dBPaA).
 Resultado        |Passa: As verificações 1 e 2 são verdadeiras.<br>Falha: As verificações 1 e/ou 2 são falsas.
 
-####C.5.1.3.13 Reinicialização do volume
+#### C.5.1.3.13 Reinicialização do volume
+
 Tipo de avaliação|Inspeção e Medida
 -----------------|-----------------
 Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual à funcionalidade fechada.
@@ -185,7 +196,8 @@ Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual �
 Procedimento     |1. Verificar que existe um modo de automaticamente colocar o som a 65 dBA, ou menos, depois de cada utilização.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-####C.5.1.3.14 Idiomas falados
+#### C.5.1.3.14 Idiomas falados
+
 Tipo de avaliação|Teste
 -----------------|-----------------
 Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual à funcionalidade fechada.
@@ -196,7 +208,8 @@ Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual �
 Procedimento     |1. Verificar que o idioma da saída de fala é o mesmo do conteúdo exibido.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-#####C.5.1.3.15 Identificação não-visual de erro
+##### C.5.1.3.15 Identificação não-visual de erro
+
 Tipo de avaliação|Teste
 -----------------|-----------------
 Pré-condições    |1. A saída auditiva é fornecida como acesso não-visual à funcionalidade fechada.
@@ -205,7 +218,8 @@ Procedimento     |1. Verificar que o idioma da saída de fala identifica o eleme
 <br>1. Verificar que o idioma da saída de fala descreve o elemento que está com erro.
 Resultado        |Passa: As verificações 1 e 2 são verdadeiras.<br>Falha: As verificações 1 e/ou 2 são falsas.
 
-#####C.5.1.3.16 Recibos, bilhetes e saídas transacionáveis
+##### C.5.1.3.16 Recibos, bilhetes e saídas transacionáveis
+
 Tipo de avaliação|Teste
 -----------------|-----------------
 Pré-condições    |1. A TIC é fechada ao acesso visual. 
@@ -214,7 +228,8 @@ Pré-condições    |1. A TIC é fechada ao acesso visual.
 Procedimento     |1. Verificar que a saída de fala é fornecida, incluindo toda a informação necessária para completar ou verificar a transação.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-####C.5.1.4 Funcionalidade fechada à ampliação de texto
+#### C.5.1.4 Funcionalidade fechada à ampliação de texto
+
 Tipo de avaliação|Inspeção e Medida
 -----------------|-----------------
 Pré-condições    |1. A funcionalidade da TIC é fechada a características de ampliação da plataforma ou tecnologia de apoio.
@@ -223,22 +238,26 @@ Procedimento     |1. Medir a altura da letra maiúscula H.
 <br>2. Verificar que subtende um ângulo de, pelo menos, 0,7 graus da visualização especificada.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-####C.5.1.5 Retorno visual para informação auditiva
+#### C.5.1.5 Retorno visual para informação auditiva
+
 Tipo de avaliação|Inspeção
 -----------------|--------
 Pré-condições    |1. A informação auditória pré-gravada é necessária para permitir o uso de funcionalidades fechadas da TIC.
 Procedimento     |1. Verificar que a informação visual é equivalente à saída auditiva pré-gravada.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-####C.5.1.6 Operação sem interface de teclado
-#####C.5.1.6.1 Funcionalidade fechada
+#### C.5.1.6 Operação sem interface de teclado
+
+##### C.5.1.6.1 Funcionalidade fechada
+
 Tipo de avaliação|Inspeção
 -----------------|--------
 Pré-condições    |1. A TIC é fechada a teclados e interfaces de teclado. 
 Procedimento     |1. Verificar que todas as funcionalidades são operáveis sem visão.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-#####C.5.1.6.2 Foco de Entrada
+##### C.5.1.6.2 Foco de Entrada
+
 Tipo de avaliação|Inspeção
 -----------------|--------
 Pré-condições    |1. A TIC é fechada a teclados e interfaces de teclado. 
@@ -246,26 +265,30 @@ Pré-condições    |1. A TIC é fechada a teclados e interfaces de teclado.
 Procedimento     |1. Verificar que é possível mover o foco de entrada desse elemento para outro usando o mesmo mecanismo.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-###C.5.2 Ativação dos recursos de acessibilidade
+### C.5.2 Ativação dos recursos de acessibilidade
+
 Tipo de avaliação|Inspeção
 -----------------|--------
 Pré-condições    |1. A TIC tem características de acessibilidade documentadas para cumprir uma determinada necessidade.
 Procedimento     |1. Verificar que é possível ativar essas características de acessibilidade sem precisar de um método que não suporta essa necessidade. 
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-###C.5.3 Biometria
+### C.5.3 Biometria
+
 Tipo de avaliação|Teste 1
 -----------------|--------
 Pré-condições    |1. A TIC usa características biológicas para identificação de utilizador.
 Procedimento     |1. Verificar que mais do que um meio pode ser usado para identificação de utilizador. 
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
+
 Tipo de avaliação|Teste 2
 -----------------|--------
 Pré-condições    |1. A TIC usa características biológicas para controlo da TIC.
 Procedimento     |1. Verificar que mais do que um meio pode ser usado para controlar a TIC. 
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-###C.5.4 Preservação da informação de acessibilidade durante a conversação
+### C.5.4 Preservação da informação de acessibilidade durante a conversação
+
 Tipo de avaliação|Inspeção
 -----------------|--------
 Pré-condições    |1. A informação não-proprietária fornecida para acessibilidade é documentada.
@@ -275,15 +298,18 @@ Pré-condições    |1. A informação não-proprietária fornecida para acessib
 Procedimento     |1. Verificar que informação não-proprietária fornecida para acessibilidade é preservada quando a TIC converte informação ou comunicação. 
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-###C.5.5 Partes operáveis
-####C.5.5.1 Modos de operação
+### C.5.5 Partes operáveis
+
+#### C.5.5.1 Modos de operação
+
 Tipo de avaliação|Teste
 -----------------|--------
 Pré-condições    |1. A TIC tem partes operáveis que requerem agarrar, prensar ou torcer o pulso para operar.  
 Procedimento     |1. Verificar que há modos de operação alternativos acessíveis que não requerem estas ações. 
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-####C.5.5.2 Perceção das partes operáveis
+#### C.5.5.2 Perceção das partes operáveis
+
 Tipo de avaliação|Teste
 -----------------|--------
 Pré-condições    |1. A TIC tem partes operáveis.  
@@ -291,8 +317,10 @@ Procedimento     |1. Identificar que há um modo de discernir cada parte operáv
 <br>2. Verificar que a ação associada com a parte operável não foi executada quando a usar o modo de discernir cada parte operável, no passo 1.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-###C.5.6 Controlos de bloqueio ou alternância
-####C.5.6.1 Estado tátil ou auditivo
+### C.5.6 Controlos de bloqueio ou alternância
+
+#### C.5.6.1 Estado tátil ou auditivo
+
 Tipo de avaliação|Inspeção
 -----------------|--------
 Pré-condições    |1. A TIC tem um controlo de bloqueio ou de alternância.
@@ -301,7 +329,8 @@ Procedimento     |1. Verificar que pelo menos um modo de operação onde o estad
 <br> 2. Verificar que há pelo menos um modo de operação onde o estado de todos os controlos de bloqueio ou alternância pode ser determinado por som sem operar o controlo.  
 Resultado        |Passa: A verificação 1 ou a 2 é verdadeira.<br>Falha: As verificações 1 e 2 são falsas.
 
-####C.5.6.2 Estado visual
+#### C.5.6.2 Estado visual
+
 Tipo de avaliação|Inspeção
 -----------------|--------
 Pré-condições    |1. A TIC tem um controlo de bloqueio ou de alternância.
@@ -309,7 +338,8 @@ Pré-condições    |1. A TIC tem um controlo de bloqueio ou de alternância.
 Procedimento     |1. Verificar que há pelo menos um modo de operação onde o estado de todos os controlos de bloqueio ou alternância pode ser visualmente determinado quando o controlo é apresentado.
 Resultado        |Passa: A verificação 1 é verdadeira.<br>Falha: A verificação 1 é falsa.
 
-###C.5.7 Repetição de Tecla
+### C.5.7 Repetição de Tecla
+
 Tipo de avaliação|Teste
 -----------------|--------
 Pré-condições    |1. A TIC tem uma função de repetição de tecla. Um teclado com repetição de tecla é fornecido. 
@@ -318,7 +348,8 @@ Procedimento     |1. Verifique que o tempo entre repetições pode ser ajustado 
 <br>1. Verifique que o tempo entre repetições de uma mesma tecla pode ser ajustado para, pelo menos, 2 segundos. 
 Resultado        |Passa: As verificações 1 e 2 são verdadeiras.<br>Falha: As verificações 1 e 2 são falsas.
 
-C.5.8 Ativação dupla de tecla
+### C.5.8 Ativação dupla de tecla
+
 Tipo de avaliação|Teste
 -----------------|--------
 Pré-condições    |1. A TIC tem um teclado. Um teclado é fornecido. 
@@ -329,7 +360,8 @@ Procedimento     |1. Verifique que há um mecanismo de ajuste do tempo durante o
 <br>5. Verifique se a tecla premida no passo 4 foi aceite.  
 Resultado        |Passa: A verificação 1 é verdadeira e a 5 é falsa.<br>Falha: A verificação 1 é falsa e a 5 é verdadeira.
 
-C.5.9 Ações simultâneas do utilizador
+### C.5.9 Ações simultâneas do utilizador
+
 Tipo de avaliação|Teste
 -----------------|--------
 Pré-condições    |Nenhuma  
