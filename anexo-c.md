@@ -135,7 +135,7 @@ Pré-condições    |1. É necessário conteúdo de vídeo pré-gravado para ati
 Procedimento     |1. Verificar que a saída de fala apresenta informação equivalente à do conteúdo pré-gravado do vídeo.
 Resultado        |Passa: A verificação 1 é verdadeira<br>Falha: A verificação 1 é falsa.
 
-##### C.5.1.3.8 Masked entry**
+##### C.5.1.3.8 _Masked entry_
 
 Tipo de avaliação|Teste
 -----------------|-------
