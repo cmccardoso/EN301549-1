@@ -91,13 +91,14 @@ As TIC com funcionalidade fechada devem cumprir os requisitos nas cláusulas C.5
 
 ##### C.5.1.3.1 Geral
 
-Tipo de avaliação|Teste
------------------|-------
-Pré-condições    |1. É necessária informação visual para ativar as funções da TIC que são fechadas a tecnologias de apoio para leitura de ecrã.
-Procedimento     |1. Determinar as funções da TIC que são fechadas a leitor de ecrã.<br>2. Verifica-se que as funções identificadas são operáveis com acesso não visual.
-Resultado        |Passa: A verificação 2 é verdadeira<br>Falha: A verificação 2 é falsa
+Tipo de avaliação       | Teste
+------------------------|-------
+Pré-condições           | 1. É necessária informação visual para ativar as funções da TIC que são fechadas a tecnologias de apoio para leitura de ecrã.
+Procedimento            | 1. Determinar as funções da TIC que são fechadas a leitor de ecrã.<br>2. Verifica-se que as funções identificadas são operáveis com acesso não visual.
+Resultado               | Passa: A verificação 2 é verdadeira<br>Falha: A verificação 2 é falsa
 
-#####C.5.1.3.2 Retorno auditivo incluindo fala
+##### C.5.1.3.2 Retorno auditivo incluindo fala
+
 Tipo de avaliação|Inspeção
 -----------------|-------
 Pré-condições    |1. É fornecida um retorno auditivo como acesso não visual à funcionalidade fechada.
