@@ -78,7 +78,10 @@ As TIC com funcionalidade fechada devem cumprir os requisitos nas cláusulas C.5
  Tipo de avaliação   |Teste
 |--------------------|-----------------------------------------|
  Pré-condições       | 1. A TIC tem funcionalidade fechada.    
- Procedimento        | <ol><li>Determine as funções fechadas da TIC.</li><li>Verifica-se que os testes C.5.1.3 a C.5.1.6 podem ser feitos sem a utilização de qualquer tecnologia de apoio, com exceção de headsets ou inductive loops.</li></ol> 
+ Procedimento        | <ol>
+                        <li>Determine as funções fechadas da TIC.</li>
+                        <li>Verifica-se que os testes C.5.1.3 a C.5.1.6 podem ser feitos sem a utilização de qualquer tecnologia de apoio, com exceção de headsets ou inductive loops.</li>
+                        </ol> 
  Resultado           | Passa: A verificação 2 é verdadeira<br> Falha: A verificação 2 é falsa 
 
 #### C.5.1.3 Acesso não visual
