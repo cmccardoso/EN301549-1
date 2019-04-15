@@ -1,6 +1,7 @@
 # Anexo C (normativo): Determinação de conformidade
 
-##C.1 Introdução
+## C.1 Introdução
+
 Este anexo normativo estabelece os meios necessários para determinar o cumprimento dos
 requisitos individuais estabelecidos no corpo do presente documento. Todas as cláusulas,
 exceto a 12, são de auto-análise. Isto significa que são introduzidas com a frase 'Onde a
@@ -26,11 +27,12 @@ a acessibilidade, no caso de conformidade parcial, e a justificação para essa 
 se usada, deve ser declarada. 
 
 A conformidade deve ser reportada num formulário tal que: 
-• seja claro se há conformidade com todos os requisitos aplicáveis ou se há conformidade apenas com alguns requisitos; 
-• sejam registadas as técnicas de amostragem e avaliação utilizadas para avaliar as TIC; 
-• se anote se a funcionalidade acessível equivalente existe em locais onde a não-conformidade tenha sido
+
+- seja claro se há conformidade com todos os requisitos aplicáveis ou se há conformidade apenas com alguns requisitos; 
+- sejam registadas as técnicas de amostragem e avaliação utilizadas para avaliar as TIC; 
+- se anote se a funcionalidade acessível equivalente existe em locais onde a não-conformidade tenha sido
 encontrada; e 
-• se observa se foram utilizados meios equivalentes que atingem o resultado previsto, quando a não-conformidade técnica tenha sido encontrada.
+- se observa se foram utilizados meios equivalentes que atingem o resultado previsto, quando a não-conformidade técnica tenha sido encontrada.
 
 NOTA 1: Em algumas situações, quando este documento é usado para outros fins que não
 a Diretiva 2016/2102 [i.28], as necessidades de acessibilidade do utilizador podem ser
@@ -45,32 +47,46 @@ complexas, quando há muitas instâncias do objeto a ser testado. Este documento
 pode recomendar técnicas específicas de avaliação por amostragem, pois estas são
 particulares de cada contexto.
 
-##C.2 Cláusula vazia
+## C.2 Cláusula vazia
+
 Esta cláusula está intencionalmente vazia.
 
-##C.3 Cláusula vazia
+## C.3 Cláusula vazia
+
 Esta cláusula está intencionalmente vazia.
 
-##C.4 Desempenho funcional
+## C.4 Desempenho funcional
+
 A Cláusula 4 é informativa e não contém requisitos que precisem de testes.
 
-##C.5 Requisitos gerais
-###C.5.1 Funcionalidade fechada
-####C.5.1.1 Introdução
+## C.5 Requisitos gerais
+
+### C.5.1 Funcionalidade fechada
+
+#### C.5.1.1 Introdução
+
 A Cláusula 5.1.1 é informativa e não contém requisitos que precisem de testes.
-####C.5.1.2 Geral
-#####C.5.1.2.1 Funcionalidade fechada
+
+#### C.5.1.2 Geral
+
+##### C.5.1.2.1 Funcionalidade fechada
+
 As TIC com funcionalidade fechada devem cumprir os requisitos nas cláusulas C.5.2 a C.13, como aplicável.
-#####C.5.1.2.2 Tecnologia de Apoio
+
+##### C.5.1.2.2 Tecnologia de Apoio
 
 Tipo de avaliação|Teste
 -----------------|-------
 Pré-condições    |1. A TIC tem funcionalidade fechada.
-Procedimento     |1. Determine as funções fechadas da TIC.<br>2. Verifica-se que os testes C.5.1.3 a C.5.1.6 podem ser feitos sem a utilização de qualquer tecnologia de apoio, com exceção de headsets ou inductive loops.
-Resultado        |Passa: A verificação 2 é verdadeira<br>Falha: A verificação 2 é falsa
+Procedimento     |1. Determine as funções fechadas da TIC. 
+                 |2. Verifica-se que os testes C.5.1.3 a C.5.1.6 podem ser feitos sem a utilização de qualquer tecnologia de apoio, com exceção de headsets ou inductive loops.
+Resultado        |Passa: A verificação 2 é verdadeira
+                 |Falha: A verificação 2 é falsa
 
-####C.5.1.3 Acesso não visual
-#####C.5.1.3.1 Geral
+#### C.5.1.3 Acesso não visual
+
+##### C.5.1.3.1 Geral
+
 Tipo de avaliação|Teste
 -----------------|-------
 Pré-condições    |1. É necessária informação visual para ativar as funções da TIC que são fechadas a tecnologias de apoio para leitura de ecrã.
